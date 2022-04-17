@@ -5,7 +5,7 @@ export default function Layout(props){
     return (
         <div className={styles.layout}>
             <div className={styles.cabecalho}>
-                <h1>{props.titulo ?? 'Layout padrao'}</h1>
+                <h1>{props.titulo ?? 'Layout'}</h1>
                 <Link href="/">Home</Link>
             </div>
             <div className={styles.conteudo}>
